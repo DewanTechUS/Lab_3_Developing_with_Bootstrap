@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(205, 207, 238);
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, rgb(179, 181, 246), rgb(99, 102, 241));
+}
+
+a {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background: #4788ce;
+  transform: translateY(-2px);
+
+}

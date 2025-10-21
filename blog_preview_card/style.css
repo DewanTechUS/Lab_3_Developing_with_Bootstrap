@@ -1,0 +1,161 @@
+
+     body {
+  background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0 rgb(10, 9, 9);
+  width: 370px;
+  min-width: 370px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.3s ease;
+}
+
+a[rel="home"] {
+  display: inline-block;
+  background: hsl(218, 44%, 22%);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+  margin: 20px auto;
+}
+
+a[rel="home"]:hover {
+  background: hsl(216, 15%, 48%);
+}
+
+.container:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+
+}
+.image img {
+    display: grid;
+    margin-right: right;
+}
+
+.author {
+  display: flex;
+  align-items: right;
+}
+
+button {
+  background-color: hsl(47, 88%, 63%);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    
+}
+
+button:hover {
+  background-color: hsl(47, 88%, 53%);
+  color: white;
+}
+.card-content {
+  width: 100%;
+  text-align: center;
+}
+.button-link {
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button-link:hover {
+  background-color: hsl(47, 88%, 53%);
+  color: white;
+
+}
+
+.read-more-button {
+ display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+   text-decoration: none;
+  border: none;
+   border-radius: 5px;
+    font-weight: bold;
+  padding: 8px 12px;
+  margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.read-more-button:hover {
+  background-color: hsl(47, 88%, 53%);
+  color: white;
+}
+h1 {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+.description {
+  color: gray;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.footer img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.footer strong {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+@media (min-width: 375px){
+  .title{ font-size: 1.7rem;
+  margin-bottom: 01rem; 
+  text-align: center;
+
+}
+}
+
+@media (min-width: 1440px){
+  body{ padding: 48px; }
+  .card{ width: 400px; margin-left: auto; margin-right: auto; padding: 24px; }
+}
